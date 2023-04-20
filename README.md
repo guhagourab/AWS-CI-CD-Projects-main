@@ -32,6 +32,6 @@ AWS_SECRET_ACCESS_KEY= given in excel
 
 AWS_REGION = us-east-2
 
-AWS_ECR_LOGIN_URI = demo>>  355128487270.dkr.ecr.us-east-2.amazonaws.com/studentperformance
+AWS_ECR_LOGIN_URI = demo>>  355128487270.dkr.ecr.us-east-2.amazonaws.com
 
-ECR_REPOSITORY_NAME = simple-app
+ECR_REPOSITORY_NAME = studentperformance
