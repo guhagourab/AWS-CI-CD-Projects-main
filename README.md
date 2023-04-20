@@ -8,13 +8,13 @@
 
 #optinal
 
-sudo apt-get update -y
+sudo apt-get update -y         #entire packages will be installed and indexed properly
 
 sudo apt-get upgrade
 
 #required
 
-curl -fsSL https://get.docker.com -o get-docker.sh
+curl -fsSL https://get.docker.com -o get-docker.sh  #installing docker based libraries
 
 sudo sh get-docker.sh
 
@@ -26,12 +26,12 @@ newgrp docker
 
 ## Setup github secrets:
 
-AWS_ACCESS_KEY_ID=
+AWS_ACCESS_KEY_ID= given in excel
 
-AWS_SECRET_ACCESS_KEY=
+AWS_SECRET_ACCESS_KEY= given in excel
 
-AWS_REGION = us-east-1
+AWS_REGION = us-east-2
 
-AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+AWS_ECR_LOGIN_URI = demo>>  355128487270.dkr.ecr.us-east-2.amazonaws.com/studentperformance
 
 ECR_REPOSITORY_NAME = simple-app
